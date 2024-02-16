@@ -2,6 +2,7 @@ import os
 import tarfile
 from six.moves import urllib
 
+
 def fetch_housing_data(housing_url, housing_path):
     if not os.path.isdir(housing_path):
         os.makedirs(housing_path)
